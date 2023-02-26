@@ -5,6 +5,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>user-service</module>
+        <module>book-service</module>
+        <module>borrow-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
