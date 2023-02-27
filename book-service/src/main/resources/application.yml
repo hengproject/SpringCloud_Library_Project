@@ -1,2 +1,8 @@
 server:
   port: 8201
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.3.114:3306/cloud_study
+    username: root
+    password: 20010829Aa
