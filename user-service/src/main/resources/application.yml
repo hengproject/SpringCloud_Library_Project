@@ -6,3 +6,10 @@ spring:
     url: jdbc:mysql://192.168.3.114:3306/cloud_study
     username: root
     password: 20010829Aa
+  application:
+    name: user-service
+eureka:
+  client:
+    # 跟上面一样，需要指向Eureka服务端地址，这样才能进行注册
+    service-url:
+      defaultZone: http://localhost:8888/eureka

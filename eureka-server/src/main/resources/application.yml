@@ -1,0 +1,12 @@
+server:
+  port: 8888
+eureka:
+  client:
+    # 开启之前需要修改一下客户端设置（虽然是服务端
+    fetch-registry: false
+    # 暂时不需要将自己也注册到Eureka
+    register-with-eureka: false
+    # 将eureka服务端指向自己
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+
