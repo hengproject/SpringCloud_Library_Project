@@ -1,5 +1,6 @@
-server:
-  port: 8101
+#server:
+#  port: 8101
+#  通过环境变量来配置
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
